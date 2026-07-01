@@ -36,9 +36,9 @@ else:4
 electricity_bill= int(input("enter a electricity_bill"))
 if electricity_bill <100:
   print("low usage")
-if electricity_bill <300
+elif electricity_bill <300
   print("medium usage")
-if electricity_bill >300:
+elif electricity_bill >300:
   print("high usage")
 balance=10000
 if 0 >= balance:
